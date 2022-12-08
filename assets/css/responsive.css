@@ -1,0 +1,154 @@
+/* PC */
+@media (min-width: 64em) {
+
+}
+
+/* Tablet and Mobile */
+@media (max-width: 63.9375em) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .socials-list {
+        font-size: 24px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #footer{
+        background-color: rgb(170 155 131);
+        padding: 30px 30px;
+    }
+    
+    .footer-content {
+        margin-top: 24px;
+    }
+    
+    .footer-info {
+        color: #0f5d43;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    .footer-info i[class*="ti-"] {
+        width: 20px;
+        display: inline-block;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #content .content-section {
+        padding: 64px 16px;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+
+    .feedback-body {
+        height: fit-content;
+    }
+
+    #slider .text-content {
+        bottom: 8px;
+    }
+    
+    #slider .text-heading {
+        font-weight: 300;
+        font-size: 14px;
+    }
+    
+    #slider .text-description {
+        font-size: 8px;
+        margin-top: 4px;
+    }
+
+    #menu .text-content {
+        top: 15px;
+    }
+    
+    #menu .text-heading {
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+
+    #content .section-heading {
+        font-size: 30px;
+        letter-spacing: 0.5px;
+    }
+
+    .contact-info {
+        font-size: 15px;
+    }
+
+    #footer{
+        padding: 32px 16px;
+    }
+
+    .copyright {
+        padding-top: 10px;
+    }
+    
+    .socials-list {
+        margin-top: 20px;
+    }
+}
